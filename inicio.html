@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClearAir - Inicio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jomhuria&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="inicio.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="IMG/logo.png" alt="Logo ClearAir" width="100" />
+      </div>
+      <nav class="nav-bar">
+        <a href="#">QUIÉNES SOMOS</a>
+        <a href="#">COMIENZA A MONITOREAR</a>
+        <a href="#">MÁS INFORMACIÓN</a>
+        <a href="#">CONTÁCTANOS</a>
+        <button class="btn-descarga">DESCARGA APP</button>
+        <button class="btn-inicia-sesion" onclick="window.location.href='index.html'">
+          INICIAR SESIÓN
+      </nav>
+    </header>
+    <main>
+      <section class="servicios">
+        <h2>SERVICIOS:</h2>
+        <div class="servicio-item">
+          <img src="IMG/servicio1.png" alt="Gráfico de monitoreo" />
+          <p>
+            La plataforma permite a los usuarios monitorear la calidad del aire
+            a través de gráficos interactivos en tiempo real. Estos gráficos
+            muestran datos precisos sobre contaminantes como PM2.5 y CO2.
+          </p>
+          <button>Visualización de gráficos en tiempo real</button>
+        </div>
+        <div class="servicio-item">
+          <img src="IMG/servicio2.png" alt="Alertas personalizadas" />
+          <p>
+            Permitir a los usuarios configurar alertas personalizadas basadas en
+            varios criterios, como ubicación, niveles de contaminación, o
+            condiciones médicas específicas (por ejemplo, problemas
+            respiratorios).
+          </p>
+          <button>Configurar alertas personalizadas</button>
+        </div>
+        <div class="servicio-item">
+          <img src="IMG/servicio3.png" alt="Historial de datos" />
+          <p>
+            Los usuarios pueden acceder a un historial detallado de los niveles
+            de contaminación del aire en su área, visualizado en forma de
+            gráficos.
+          </p>
+          <button>Historial de datos contaminación de aire</button>
+        </div>
+        <div class="servicio-item">
+          <img src="IMG/servicio4.png" alt="Sensores de aire" />
+          <p>
+            ClearAir ofrece la opción de adquirir sensores de calidad del aire
+            compatibles con la plataforma, que miden parámetros clave como PM2.5
+            y CO2. Además, la compra y configuración de los sensores se puede
+            realizar fácilmente desde la aplicación.
+          </p>
+          <button>Compra sensores de aire</button>
+        </div>
+      </section>
+      <section class="recomendaciones">
+        <h2>RECOMENDACIONES DE SALUD:</h2>
+        <div class="recomendacion-item">
+          <p>Usar mascarilla en espacios cerrados</p>
+        </div>
+        <div class="recomendacion-item">
+          <p>
+            Si es posible, realizar actividades al aire libre en las primeras
+            horas del día o después de la puesta del sol
+          </p>
+        </div>
+        <div class="recomendacion-item">
+          <p>
+            Evitar el uso de chimeneas o barbacoas que puedan aumentar la
+            contaminación del aire en casa
+          </p>
+        </div>
+        <div class="recomendacion-item">
+          <p>
+            Mantenerse bien hidratado es importante, ya que el aire seco o
+            contaminado puede causar irritación en las vías respiratorias.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Nosotros</h3>
+          <ul>
+            <li><a href="#">Conócenos</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Suscripción</h3>
+          <ul>
+            <li><a href="#">Gratuita</a></li>
+            <li><a href="#">Básica</a></li>
+            <li><a href="#">Premium</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Cargo en la compañía</h3>
+          <ul>
+            <li><a href="#">Administrativo</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Repartidor</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Legal</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.mef.gob.pe/es/?option=com_content&language=es-ES&Itemid=101008&lang=es-ES&view=article&id=604"
+                target="_blank"
+                >Políticas</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://diariooficial.elperuano.pe/Normas/obtenerDocumento?idNorma=4"
+                target="_blank"
+                >Reglamentos</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://diariooficial.elperuano.pe/normas"
+                target="_blank"
+                >Normas</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="footer-line" />
+      <div class="footer-bottom">
+        <p>© 2024 ClearAir. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
