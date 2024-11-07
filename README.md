@@ -20,6 +20,7 @@ Segmento Objetivo #2: Personas que viven en distritos de condiciones climáticas
 Personas que viven en zonas donde el clima impacta significativamente la calidad del aire
 
 Caracteristicas del startup:
+
 -Monitoreo en tiempo real:
 Presentación de datos actualizados sobre la calidad del aire mediante gráficos interactivos y mapas, permitiendo a los usuarios visualizar la contaminación en su entorno.
 -Alertas personalizadas: 
