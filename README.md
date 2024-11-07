@@ -15,7 +15,7 @@ Integrantes:
 
 4)Loo Cuya, Juan Diego Alfonso
 
-5) Montenegro Alzamora, Jostein Sebastian
+5)Montenegro Alzamora, Jostein Sebastian
 
 Segmento Objetivo #1: 
 Personas con problemas respiratorios
