@@ -23,8 +23,10 @@ Caracteristicas del startup:
 
 -Monitoreo en tiempo real:
 Presentación de datos actualizados sobre la calidad del aire mediante gráficos interactivos y mapas, permitiendo a los usuarios visualizar la contaminación en su entorno.
+
 -Alertas personalizadas: 
 Notificaciones automáticas cuando los niveles de contaminación alcanzan niveles peligrosos, personalizadas según la ubicación y el estado de salud del usuario.
+
 -Historial de calidad del aire: 
 Registro histórico de los niveles de contaminación, lo que permite a los usuarios identificar patrones y tomar decisiones informadas.
 
